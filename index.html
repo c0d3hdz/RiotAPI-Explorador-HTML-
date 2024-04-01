@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mi Página Web de League of Legends</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>Bienvenido a mi página web de League of Legends</h1>
+
+        <label for="region">Región:</label>
+        <select name="region" id="region">
+            <option value="EUN1">EUN1</option>
+            <option value="EUW1">EUW1</option>
+            <option value="BR1">BR1</option>
+            <option value="JP1">JP1</option>
+            <option value="KR">KR</option>
+            <option value="LA1">LA1</option>
+            <option value="LA2">LA2</option>
+            <option value="NA1">NA1</option>
+            <!-- Agrega más opciones para otras regiones según sea necesario -->
+        </select>
+
+        <br />
+
+        <label for="summonerName">Nombre de Invocador:</label>
+        <input type="text" id="summonerNameInput" />
+        <button onclick="searchSummoner()">Buscar</button>
+
+        <div id="summonerInfo"></div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
