@@ -1,4 +1,4 @@
-const apiKey = 'RGAPI-39121669-3362-4807-86cb-5e8a6323d0ff'
+const apiKey = 'API_KEY'
 let puuidEncrip = ''
 
 async function getSummonerData(region, summonerName) {
